@@ -21,10 +21,6 @@ public class RandomNumber {
         this.randomDouble = randomDouble;
     }
 
-    public Long getId() {
-        return id;
-    }
-
     public double getRandomDouble() {
         return randomDouble;
     }

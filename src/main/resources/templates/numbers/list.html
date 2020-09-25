@@ -1,0 +1,25 @@
+
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8"/>
+    <title>Assignment</title>
+</head>
+<body>
+<h1>Number List</h1>
+
+<table style="width:80%">
+    <tr>
+        <th>Number from database</th>
+        <th>Number from Java</th>
+        <th>Sum of numbers</th>
+    </tr>
+    <tr th:each="number : ${numbers}">
+        <td th:text="${number.dbRandom}">123</td>
+        <td th:text="${number.javaRandom}"> 456</td>
+        <td th:text="${number.connected}">789</td>
+    </tr>
+</table>
+
+</body>
+</html>
