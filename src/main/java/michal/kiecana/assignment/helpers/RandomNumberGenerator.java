@@ -10,6 +10,7 @@ public class RandomNumberGenerator {
 
     private static final double LEFT_LIMIT = 0.0;
     private static final double RIGHT_LIMIT = 1.0e4;
+
     private final Random random;
 
     public RandomNumberGenerator(Random random) {

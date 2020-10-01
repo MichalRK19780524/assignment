@@ -46,6 +46,5 @@ public class MainController {
         List<SetOfNumbers> setOfNumbersList = connectNumberService.connectNumbers(randomDbNumbers, randomJavaNumbers, Double::sum);
         model.addAttribute("numbers", setOfNumbersList);
         return "numbers/list";
-
     }
 }
