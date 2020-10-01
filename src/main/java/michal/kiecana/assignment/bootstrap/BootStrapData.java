@@ -3,9 +3,7 @@ package michal.kiecana.assignment.bootstrap;
 import michal.kiecana.assignment.helpers.RandomNumberGenerator;
 import michal.kiecana.assignment.repositories.RandomNumberRepository;
 import org.springframework.boot.CommandLineRunner;
-import org.springframework.stereotype.Component;
 
-@Component
 public class BootStrapData implements CommandLineRunner {
 
     private static final int AMOUNT = 10_000;

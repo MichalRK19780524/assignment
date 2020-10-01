@@ -11,11 +11,11 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 @Service
-public class RandomNumberServiceH2Impl implements RandomNumberService {
+public class RandomNumberServiceDbImpl implements RandomNumberService {
 
     private final RandomNumberRepository randomNumberRepository;
 
-    public RandomNumberServiceH2Impl(RandomNumberRepository randomNumberRepository) {
+    public RandomNumberServiceDbImpl(RandomNumberRepository randomNumberRepository) {
         this.randomNumberRepository = randomNumberRepository;
     }
 
